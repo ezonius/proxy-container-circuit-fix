@@ -1,0 +1,9 @@
+{
+  "name": "proxy-container-circuit-fix",
+  "version": "1.0.0",
+  "factorio_version": "2.1",
+  "title": "Proxy Container Circuit Fix",
+  "author": "ezonius",
+  "description": "Fixes proxy-container prototypes from other mods that still use the pre-2.1.21 single circuit_connector definition (now required to be a list). Wraps single definitions into lists and sets missing direction_count values so affected mods load again.",
+  "dependencies": []
+}

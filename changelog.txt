@@ -1,0 +1,6 @@
+﻿---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-10-06
+  Bugfixes:
+    - Compatibility with Factorio 2.1.21: wraps single CircuitConnectorDefinitions assigned to proxy-container prototypes into the now-required list format, and fills in missing direction_count for multi-entry lists. Repairs affected mods (e.g. Spidertron Patrols' spidertron dock) at load time without editing those mods.
+---------------------------------------------------------------------------------------------------
